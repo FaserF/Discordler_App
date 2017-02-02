@@ -13,8 +13,8 @@
     tools:context="com.discordler.discordler.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
+    <WebView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This will be the official Discordler App for Android" />
+        android:id="@+id/activity_main_webview" />
 </RelativeLayout>
